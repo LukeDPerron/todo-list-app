@@ -82,6 +82,7 @@ def main():
         print("3. Mark task as complete")
         print("4. Delete a task")
         print("5. Exit")
+        print()
 
         choice = input("Select an option (1 to 5): ").strip()
 
