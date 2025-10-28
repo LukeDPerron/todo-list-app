@@ -83,7 +83,7 @@ def main():
         print("4. Delete a task")
         print("5. Exit")
 
-        choice = input("Select an option (1-5): ").strip()
+        choice = input("Select an option (1 to 5): ").strip()
 
         if choice == "1":
             show_tasks(tasks)
